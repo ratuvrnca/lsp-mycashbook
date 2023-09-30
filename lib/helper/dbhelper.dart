@@ -39,7 +39,7 @@ class DbHelper {
     type TEXT
   )''');
 
-    // insert to table user
+    // insert to table users
     await db.insert("user", {'email': 'vero@mail.com', 'password': 'vero123'});
   }
 
