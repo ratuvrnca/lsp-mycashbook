@@ -30,7 +30,7 @@ class _LoginPageState extends State<LoginPage> {
           key: _formKey, // Assign the form key
           child: Column(
             children: <Widget>[
-              // Centered Image and Application Name
+              // Centered Image and Application name
               Container(
                 margin: const EdgeInsets.only(top: 100.0),
                 child: Column(
